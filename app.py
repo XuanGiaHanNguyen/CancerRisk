@@ -135,7 +135,7 @@ app.layout = dbc.Container([
                     ]),
                     multiple=False
                 ),
-                html.Div(id='upload-status', className="mt-3")
+                html.Div(id='upload-status')
             ])
         ]),
         
